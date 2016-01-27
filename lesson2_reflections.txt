@@ -1,4 +1,5 @@
 What happens when you initialise a repository? Why do you need to do it?
 Initialisation creates the .git file which will contain all of the history information for the repository
 
-
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area holds a subset of the working directory, and its contents are not yet in the repository. It offers a convenient way to group files together for a commit. It isn't essential, just convenient
