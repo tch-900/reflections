@@ -3,3 +3,7 @@ Initialisation creates the .git file which will contain all of the history infor
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 The staging area holds a subset of the working directory, and its contents are not yet in the repository. It offers a convenient way to group files together for a commit. It isn't essential, just convenient
+
+How can you use the staging area to make sure you have one commit per logical change?
+You can check the changes in the staging area against both the most recent commit and the files in the working directory to confirm what they are before committing
+
