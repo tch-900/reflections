@@ -7,3 +7,9 @@ The staging area holds a subset of the working directory, and its contents are n
 How can you use the staging area to make sure you have one commit per logical change?
 You can check the changes in the staging area against both the most recent commit and the files in the working directory to confirm what they are before committing
 
+What are some situations when branches would be helpful in keeping your history organised? How would branches help?
+One example would be if you were making experimental changes which you wanted to keep separate from the main code base. Or, a different version of the code, in another language for instance. Each version of the code would have its own branch, keeping them separate, but allowing you to switch between them easily
+
+How do the diagrams help you visualise the branch structure?
+They enable me to see the structure "in one go." Without them I'd have difficulty keeping the whole structure in my head
+
