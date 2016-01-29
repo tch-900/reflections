@@ -13,3 +13,5 @@ One example would be if you were making experimental changes which you wanted to
 How do the diagrams help you visualise the branch structure?
 They enable me to see the structure "in one go." Without them I'd have difficulty keeping the whole structure in my head
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The resultant merged branch contains the changes made in both branches since their last common ancestor. The diagram simply represents this
