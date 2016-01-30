@@ -4,3 +4,5 @@ If I'm collaborating with other people who also need access to the repository
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 I'd want to keep control over what I have locally. It could be confusing if a file I'm working on changes while I'm still working on it
 
+Describe the differences between forks, clones and branches. When would you use one instead of another?
+A branch is an alternative version of the code within the repository, useful for experimenting or creating a different language version. A clone is a local copy of a repository, where the original can either be local or remote. In the remote case, this enables you to work on the repository locally. A fork takes a repository on github and makes a copy in a different user account. This enables you to use someone else's work as a starting point, while crediting the original author(s)
