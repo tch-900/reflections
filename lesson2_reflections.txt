@@ -15,3 +15,6 @@ They enable me to see the structure "in one go." Without them I'd have difficult
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 The resultant merged branch contains the changes made in both branches since their last common ancestor. The diagram simply represents this
+
+What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+Automatic merging is faster and more convenient. When it spots an ambiguity, it forces you to merge manually anyway. Always merging manually would force you to be more aware of other people's changes to the code, but generally would be a waste of time.
