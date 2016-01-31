@@ -13,3 +13,6 @@ Unlike your local copy, it is guaranteed to be an ancestor of the current state 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 I assume we'd have to email changes between the participants. With a small number of people collaborating, this would be doable but inconvenient, unless each person was working on a different section of code. Even then, I don't think anything would be easier. As the number of collaborators rises, or as the parts of the code they're working on starts to overlap, things would get muddled quite quickly
 
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+Making changes in a separate branch enables you to experiment without worrying about breaking master. You can then commit your changes to master once you are confident that they are working properly. Making changes directly to master is a lot simpler, but should only be done if there is little danger, for instance, fixing a typo in a comment, or updating documentation
+
