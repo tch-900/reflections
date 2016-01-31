@@ -10,3 +10,6 @@ A branch is an alternative version of the code within the repository, useful for
 What is the benefit of having a copy of the last known state of the remote stored locally?
 Unlike your local copy, it is guaranteed to be an ancestor of the current state of the remote. It can therefore be updated from the remote, and any conflicts can then be sorted out locally in the normal way, using merge
 
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+I assume we'd have to email changes between the participants. With a small number of people collaborating, this would be doable but inconvenient, unless each person was working on a different section of code. Even then, I don't think anything would be easier. As the number of collaborators rises, or as the parts of the code they're working on starts to overlap, things would get muddled quite quickly
+
